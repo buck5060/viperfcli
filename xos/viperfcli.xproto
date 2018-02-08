@@ -2,7 +2,7 @@ option name = "viperfcli";
 option app_label = "viperfcli";
 
 message VIPCService (Service){
-    option verbose_name = "Iperf server Service";
+    option verbose_name = "Iperf client Service";
 }
 
 message VIPCServiceInstance (TenantWithContainer){
