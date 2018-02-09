@@ -47,7 +47,7 @@ class SyncVIPCServiceInstance(SyncInstanceUsingAnsible):
         return Network.objects.get(name=network_name).id
 
     # To get each instance id
-    def get_instance_id(self, network_name):
+    def get_instance_id(self, serviceinstance):
         instances = serviceinstance.objects.all()
         instance_id = instances[0].instance_id
         return instance_id
