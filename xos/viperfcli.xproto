@@ -6,5 +6,5 @@ message VIPCService (Service){
 }
 
 message VIPCServiceInstance (TenantWithContainer){
-     option verbose_name = "Iperf Server Service Instance";
+     option verbose_name = "Iperf Client Service Instance";
 }
